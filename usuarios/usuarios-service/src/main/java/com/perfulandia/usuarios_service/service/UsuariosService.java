@@ -15,7 +15,7 @@ public class UsuariosService {
     @Autowired
     private UsuariosRepository usuariosRepository;
 
-    public List<usuariosModel> findAll(){
+    public List<UsuariosModel> findAll(){
         return usuariosRepository.findAll();
     }
 
