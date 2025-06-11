@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45c49b36-a192-43ae-b43a-d721e16150f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/backend-perfulandia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/perfulandia-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/src/main/java/com/perfulandia/pedidos_service/PedidosServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/src/test/java/com/perfulandia/pedidos_service/PedidosServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/src/main/java/com/perfulandia/productos_service/ProductosServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/src/main/java/com/perfulandia/productos_service/controller/ProductoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/src/main/java/com/perfulandia/productos_service/model/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/src/main/java/com/perfulandia/productos_service/repository/ProductoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/src/main/java/com/perfulandia/productos_service/service/ProductoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-service/src/test/java/com/perfulandia/productos_service/ProductosServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/UsuariosServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/controller/UsuariosController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/model/UsuariosModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/repository/UsuariosRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/service/UsuariosService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/src/test/java/com/perfulandia/usuarios_service/UsuariosServiceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2yLFjTwarfDW4uXyJzAQgx6wk6T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.InventarioApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\diego\OneDrive\Desktop\Perfulandia\backend-perfulandia\backend-perfulandia" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45c49b36-a192-43ae-b43a-d721e16150f3" name="Changes" comment="" />
+      <created>1749606083046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749606083046</updated>
+    </task>
+    <servers />
+  </component>
+</project>
