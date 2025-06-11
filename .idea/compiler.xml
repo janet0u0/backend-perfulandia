@@ -21,7 +21,6 @@
         </processorPath>
         <module name="usuarios-service" />
         <module name="pedidos-service" />
-        <module name="productos-service" />
       </profile>
     </annotationProcessing>
   </component>
