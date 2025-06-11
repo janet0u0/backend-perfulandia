@@ -19,5 +19,15 @@ public class UsuariosService {
         return usuariosRepository.findAll();
     }
 
+    public UsuariosModel findById(long id){
+        return usuariosRepository.findById(id).get();
+    }
 
+    public UsuariosModel save(UsuariosModel usuariosModel){
+        return usuariosRepository.save(usuariosModel);
+    }
+
+    public void delete(Long id){
+        usuariosRepository.deleteById(id);
+    }
 }
