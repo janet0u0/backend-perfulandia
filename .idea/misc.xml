@@ -4,17 +4,18 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../../inventario/pom.xml" />
-        <option value="$PROJECT_DIR$/backend-perfulandia/inventario/pom.xml" />
+        <option value="$PROJECT_DIR$/pedidos/pedidos-service/pom.xml" />
+        <option value="$PROJECT_DIR$/usuarios/usuarios-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-perfulandia/productos/productos-service/pom.xml" />
+        <option value="$PROJECT_DIR$/productos-service/pom.xml" />
+        <option value="$PROJECT_DIR$/asfasfasf/pom.xml" />
+        <option value="$PROJECT_DIR$/productos/productos-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pruebamicro/sadasdasdas (1)/sadasdasdas/pom.xml" />
+        <option value="$PROJECT_DIR$/pruebamicro/sadasdasdas/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/backend-perfulandia/inventario/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="openjdk-24" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="24" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
