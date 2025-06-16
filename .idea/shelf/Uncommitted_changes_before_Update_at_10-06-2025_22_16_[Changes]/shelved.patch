@@ -1,0 +1,17 @@
+Index: usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/UsuariosServiceApplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.perfulandia.usuarios_service;\r\n\r\nimport org.springframework.boot.SpringApplication;\r\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\r\n\r\n@SpringBootApplication\r\npublic class UsuariosServiceApplication {\r\n\r\n\tpublic static void main(String[] args) {\r\n\t\tSpringApplication.run(UsuariosServiceApplication.class, args);\r\n\t}\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/UsuariosServiceApplication.java b/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/UsuariosServiceApplication.java
+--- a/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/UsuariosServiceApplication.java	(revision 5ca3f9776bbf5a6a67033154aa9d9b8190f5cd52)
++++ b/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/UsuariosServiceApplication.java	(date 1749607870477)
+@@ -10,4 +10,4 @@
+ 		SpringApplication.run(UsuariosServiceApplication.class, args);
+ 	}
+ 
+-}
++}
+\ No newline at end of file
