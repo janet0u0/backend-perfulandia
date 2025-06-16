@@ -22,14 +22,23 @@
         <module name="usuarios-service" />
         <module name="pedidos-service" />
         <module name="logistica-service" />
-        <module name="inventario" />
         <module name="productos-services" />
+      </profile>
+      <profile name="Annotation profile for inventario" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="inventario-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="inventario" options="-parameters" />
+      <module name="inventario-service" options="-parameters" />
       <module name="logistica-service" options="-parameters" />
       <module name="pedidos-service" options="-parameters" />
       <module name="productos-services" options="-parameters" />
