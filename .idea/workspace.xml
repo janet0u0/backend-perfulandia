@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment="backup">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment="testeando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/src/main/java/com/perfulandia/pedidos_service/PedidosServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos/pedidos-service/src/test/java/com/perfulandia/pedidos_service/PedidosServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/controller/UsuariosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/usuarios-service/src/main/java/com/perfulandia/usuarios_service/controller/UsuariosController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +40,23 @@
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;M1CH33L&quot;
+    },
+    {
+      &quot;assignee&quot;: &quot;M1CH33L&quot;
+    }
+  ],
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
     &quot;assignee&quot;: &quot;M1CH33L&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/janet0u0/backend-perfulandia&quot;,
-    &quot;accountId&quot;: &quot;b731e976-de82-4fe4-a0c9-460b00f49ab4&quot;
+    &quot;url&quot;: &quot;https://github.com/janet0u0/backend-perfulandia.git&quot;,
+    &quot;accountId&quot;: &quot;3d2094e1-0719-4517-b88f-e7608b792350&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -273,13 +274,30 @@
       <option name="project" value="LOCAL" />
       <updated>1750037241720</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="testeando">
+      <option name="closed" value="true" />
+      <created>1750038415795</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1750038415795</updated>
+    </task>
+    <task id="LOCAL-00020" summary="testeando">
+      <option name="closed" value="true" />
+      <created>1750038444766</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1750038444766</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CAmbio grande en arquitectura" />
     <MESSAGE value="productos" />
     <MESSAGE value="backup" />
-    <option name="LAST_COMMIT_MESSAGE" value="backup" />
+    <MESSAGE value="testeando" />
+    <option name="LAST_COMMIT_MESSAGE" value="testeando" />
   </component>
 </project>
