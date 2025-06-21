@@ -1,11 +1,12 @@
 package com.perfulandia.logistica_service.service;
 
-import com.perfulandia.logistica_service.model.Transportista;
-import com.perfulandia.logistica_service.repository.TransportistaRepository;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
+import com.perfulandia.logistica_service.model.Transportista;
+import com.perfulandia.logistica_service.repository.TransportistaRepository;
 
 @Service
 public class TransportistaService {

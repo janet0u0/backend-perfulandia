@@ -1,9 +1,16 @@
 package com.perfulandia.logistica_service.model;
 
-import jakarta.persistence.*;
-import lombok.*;
-
 import java.util.List;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
@@ -18,6 +25,7 @@ public class Transportista {
     private String nombre;
     private String rut;
     private String empresa;
+    private String telefono;  // <-- Campo agregado
 
     @OneToMany(mappedBy = "transportista", cascade = CascadeType.ALL)
     private List<Despacho> despachos;
