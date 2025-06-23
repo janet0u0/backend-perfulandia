@@ -17,7 +17,7 @@ public class UsuariosModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(unique = true, nullable = false, length = 10)
+    @Column(unique = true, nullable = false, length = 8)
     private Integer runCliente;
 
     @Column(nullable = false, length = 1)
