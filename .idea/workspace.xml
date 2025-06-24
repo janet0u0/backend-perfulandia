@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment="-">
+    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/productos/productos-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos-services/src/test/java/com/perfulandia/productos_service/ProductosServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos-services/src/test/java/com/perfulandia/productos_service/ProductosServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos-service/ProductosServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos_service/ProductosServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos-service/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos_service/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos-service/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos_service/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos-service/repository/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos_service/repository/ProductoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos-service/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos-services/src/main/java/com/perfulandia/productos_service/service/ProductoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
@@ -76,7 +80,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Rebasing main",
+    "git-widget-placeholder": "main",
+    "last_directory_selection": "C:/Users/Usuario1/Downloads/backend-perfulandia/productos/productos-services/src/test/java/com/perfulandia/productos_service",
     "last_opened_file_path": "C:/Users/zhori/Documents/Java proyectos/perfulandia-backup/backend-perfulandia",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -306,8 +311,27 @@
       <option name="project" value="LOCAL" />
       <updated>1750732706247</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary=".">
+      <option name="closed" value="true" />
+      <created>1750733386405</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1750733386405</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CAmbio grande en arquitectura" />
@@ -315,6 +339,7 @@
     <MESSAGE value="backup" />
     <MESSAGE value="testeando" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
