@@ -4,6 +4,7 @@ import com.perfulandia.productos_service.model.Producto;
 import com.perfulandia.productos_service.service.ProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -28,8 +29,9 @@ public class ProductoController {
     }
 
     @PostMapping
-    public Producto crear(@RequestBody Producto producto) {
-        return productoService.guardarProducto(producto);
+    public ResponseEntity<Producto> guardarProducto(@RequestBody Producto producto) {
+        Producto productoNuevo = productoService.guardarProducto(producto);
+        return ResponseEntity.status(HttpStatus.CREATED).body(productoNuevo);
     }
 
     @PutMapping("/{id}")
