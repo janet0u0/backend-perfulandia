@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/productos/productos_services/src/test/java/com/perfulandia/productos_service/controller/ServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos_services/src/main/java/com/perfulandia/productos_service/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos_services/src/main/java/com/perfulandia/productos_service/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos_services/src/main/java/com/perfulandia/productos_service/repository/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos_services/src/main/java/com/perfulandia/productos_service/repository/ProductoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos_services/src/test/java/com/perfulandia/productos_service/controller/ControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos_services/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos_services/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos_services/target/classes/com/perfulandia/productos_service/repository/ProductoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos_services/target/classes/com/perfulandia/productos_service/repository/ProductoRepository.class" afterDir="false" />
-    </list>
+    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +77,7 @@
     "Application.ProductosServiceApplication.executor": "Run",
     "Application.UsuariosServiceApplication.executor": "Run",
     "JUnit.DespachoControllerTest.executor": "Run",
+    "JUnit.ServiceTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -357,7 +350,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750799810133</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=".">
+      <option name="closed" value="true" />
+      <created>1750982543050</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1750982543050</updated>
+    </task>
+    <task id="LOCAL-00028" summary=".">
+      <option name="closed" value="true" />
+      <created>1750982548468</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1750982548468</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
