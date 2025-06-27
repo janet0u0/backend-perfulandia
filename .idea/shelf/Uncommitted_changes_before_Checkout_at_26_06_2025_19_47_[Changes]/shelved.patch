@@ -1,0 +1,22 @@
+Index: productos/productos_services/src/main/java/com/perfulandia/productos_service/DataLoader.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.perfulandia.productos_service;\r\n\r\nimport com.perfulandia.productos_service.model.*;\r\nimport com.perfulandia.productos_service.repository.*;\r\n\r\nimport net.datafaker.Faker;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.boot.CommandLineRunner;\r\nimport org.springframework.context.annotation.Profile;\r\nimport org.springframework.stereotype.Component;\r\n\r\nimport java.util.List;\r\nimport java.util.Random;\r\n\r\n@Profile(\"dev\")\r\n@Component\r\npublic class DataLoader implements CommandLineRunner {\r\n\r\npublic class DataLoader {\r\n    @Autowired\r\n    private ProductoRepository productoRepository;\r\n\r\n    @Override\r\n    public void run(String... args) throws Exception {\r\n        Faker faker = new Faker();\r\n        Random random = new Random();\r\n\r\n        // Generar 10 productos ficticios\r\n        for (int i = 0; i < 10; i++) {\r\n            Producto producto = new Producto();\r\n            producto.setNombre(faker.commerce().productName());\r\n            producto.setMarca(faker.company().name());\r\n            producto.setDescripcion(faker.lorem().sentence());\r\n            producto.setPrecio(Double.parseDouble(faker.commerce().price()));\r\n            producto.setStock(random.nextInt(100) + 1);\r\n\r\n            productoRepository.save(producto);\r\n        }\r\n\r\n        // Listar todos los productos para verificar\r\n        List<Producto> productos = productoRepository.findAll();\r\n        productos.forEach(System.out::println);\r\n    }\r\n}\r\n}\r\n
+===================================================================
+diff --git a/productos/productos_services/src/main/java/com/perfulandia/productos_service/DataLoader.java b/productos/productos_services/src/main/java/com/perfulandia/productos_service/DataLoader.java
+--- a/productos/productos_services/src/main/java/com/perfulandia/productos_service/DataLoader.java	(revision 6c70f5faf07e8ef39a8c6087d425e7e466e9f05a)
++++ b/productos/productos_services/src/main/java/com/perfulandia/productos_service/DataLoader.java	(date 1750974527200)
+@@ -16,7 +16,6 @@
+ @Component
+ public class DataLoader implements CommandLineRunner {
+ 
+-public class DataLoader {
+     @Autowired
+     private ProductoRepository productoRepository;
+ 
+@@ -42,4 +41,4 @@
+         productos.forEach(System.out::println);
+     }
+ }
+-}
++

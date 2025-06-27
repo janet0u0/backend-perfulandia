@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Update_at_26_06_2025_19_48_[Changes]" date="1750981687600" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_06_2025_19_48_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 26/06/2025 19:48 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="productos/productos_services/target/classes/com/perfulandia/productos_service/repository/ProductoRepository.class" />
+    <option name="AFTER_PATH" value="productos/productos_services/target/classes/com/perfulandia/productos_service/repository/ProductoRepository.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_06_2025_19_48_[Changes]/ProductoRepository.class" />
+  </binary>
+</changelist>
