@@ -1,34 +1,35 @@
 package com.perfulandia.usuarios_service.service;
 
-import com.perfulandia.usuarios_service.model.UsuariosModel;
-import com.perfulandia.usuarios_service.repository.UsuariosRepository;
+import java.util.List;
+import java.util.Optional;
 
-import jakarta.transaction.Transactional;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.perfulandia.usuarios_service.model.*;
+import com.perfulandia.usuarios_service.repository.*;
 
 @Service
-@Transactional
 public class UsuariosService {
 
-    @Autowired
-    private UsuariosRepository usuariosRepository;
+    private final UsuariosRepository repository;
 
-    public List<UsuariosModel> findAll(){
-        return usuariosRepository.findAll();
+    public UsuariosService(UsuariosRepository repository) {
+        this.repository = repository;
     }
 
-    public UsuariosModel findById(long id){
-        return usuariosRepository.findById(id).get();
+    public List<UsuariosModel> obtenerTodos() {
+        return repository.findAll();
     }
 
-    public UsuariosModel save(UsuariosModel usuariosModel){
-        return usuariosRepository.save(usuariosModel);
+    public Optional<UsuariosModel> obtenerPorId(Long id) {
+        return repository.findById(id);
     }
 
-    public void delete(Long id){
-        usuariosRepository.deleteById(id);
+    public UsuariosModel guardar(UsuariosModel usuario) {
+        return repository.save(usuario);
+    }
+
+    public void eliminar(Long id) {
+        repository.deleteById(id);
     }
 }

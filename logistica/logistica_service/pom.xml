@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.perfulandia</groupId>
-	<artifactId>logistica-service</artifactId>
+	<artifactId>logistica_service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>logistica-service</name>
 	<description>Microservicio de logistica</description>

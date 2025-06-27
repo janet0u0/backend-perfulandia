@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment="." />
+    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment="backup">
+      <change afterPath="$PROJECT_DIR$/usuarios/usuarios_service/src/test/java/com/perfulandia/usuarios_service/controller/UserContTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/usuarios_service/src/test/java/com/perfulandia/usuarios_service/service/UserServTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario/inventario_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario/inventario_service/src/main/java/com/perfulandia/inventario-service/InventarioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario/inventario_service/src/main/java/com/perfulandia/inventario-service/InventarioApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistica/logistica_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistica/logistica_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistica/logistica_service/target/test-classes/com/perfulandia/logistica_service/LogisticaServiceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios_service/src/main/java/com/perfulandia/usuarios_service/controller/UsuariosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/usuarios_service/src/main/java/com/perfulandia/usuarios_service/controller/UsuariosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios_service/src/main/java/com/perfulandia/usuarios_service/service/UsuariosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/usuarios_service/src/main/java/com/perfulandia/usuarios_service/service/UsuariosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios_service/src/test/java/com/perfulandia/usuarios_service/UsuariosServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios_service/target/classes/com/perfulandia/usuarios_service/controller/UsuariosController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios_service/target/classes/com/perfulandia/usuarios_service/model/UsuariosModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/usuarios_service/target/classes/com/perfulandia/usuarios_service/model/UsuariosModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios_service/target/classes/com/perfulandia/usuarios_service/service/UsuariosService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/usuarios_service/target/test-classes/com/perfulandia/usuarios_service/UsuariosServiceApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,45 +45,33 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;history&quot;: [
-    {
-      &quot;state&quot;: &quot;OPEN&quot;,
-      &quot;assignee&quot;: &quot;M1CH33L&quot;
-    },
-    {
-      &quot;assignee&quot;: &quot;M1CH33L&quot;
-    }
-  ],
-  &quot;lastFilter&quot;: {}
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/janet0u0/backend-perfulandia.git&quot;,
-    &quot;accountId&quot;: &quot;3d2094e1-0719-4517-b88f-e7608b792350&quot;
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;M1CH33L&quot;
   }
 }</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/janet0u0/backend-perfulandia",
+    "accountId": "b731e976-de82-4fe4-a0c9-460b00f49ab4"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2y9wj1NDQAfnUHWIJVuyyCBfRvw" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,14 +81,14 @@
     "Application.ProductosServiceApplication.executor": "Run",
     "Application.UsuariosServiceApplication.executor": "Run",
     "JUnit.DespachoControllerTest.executor": "Run",
-    "JUnit.ServiceTest.executor": "Run",
+    "JUnit.UserContTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dataloader__test",
-    "last_directory_selection": "C:/Users/Usuario1/Downloads/backend-perfulandia/productos/productos-services/src/test/java/com/perfulandia/productos_service",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/zhori/Documents/Java proyectos/perfulandia-backup/backend-perfulandia",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -99,7 +103,7 @@
       <recent name="C:\Users\zhori\Documents\Java proyectos\perfulandia-main\backend-perfulandia" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.perfulandia.productos_service.controller" />
+      <recent name="com.perfulandia.usuarios_service.service" />
     </key>
   </component>
   <component name="RunManager">
@@ -108,7 +112,7 @@
       <module name="productos-services" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.perfulandia.productos_service.service.*" />
+          <option name="PATTERN" value="com.perfulandia.productos_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,7 +133,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductosServiceApplication" />
         <item itemvalue="Application.ProductosServiceApplication" />
       </list>
     </recent_temporary>
@@ -286,87 +289,7 @@
       <option name="project" value="LOCAL" />
       <updated>1750037241720</updated>
     </task>
-    <task id="LOCAL-00019" summary="testeando">
-      <option name="closed" value="true" />
-      <created>1750038415795</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1750038415795</updated>
-    </task>
-    <task id="LOCAL-00020" summary="testeando">
-      <option name="closed" value="true" />
-      <created>1750038444766</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1750038444766</updated>
-    </task>
-    <task id="LOCAL-00021" summary="testeando">
-      <option name="closed" value="true" />
-      <created>1750039803317</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1750039803317</updated>
-    </task>
-    <task id="LOCAL-00022" summary="-">
-      <option name="closed" value="true" />
-      <created>1750732706247</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1750732706247</updated>
-    </task>
-    <task id="LOCAL-00023" summary=".">
-      <option name="closed" value="true" />
-      <created>1750733386405</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1750733386405</updated>
-    </task>
-    <task id="LOCAL-00024" summary=".">
-      <option name="closed" value="true" />
-      <created>1750785051139</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1750785051139</updated>
-    </task>
-    <task id="LOCAL-00025" summary=".">
-      <option name="closed" value="true" />
-      <created>1750798776975</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1750798776975</updated>
-    </task>
-    <task id="LOCAL-00026" summary=".">
-      <option name="closed" value="true" />
-      <created>1750799810133</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1750799810133</updated>
-    </task>
-    <task id="LOCAL-00027" summary=".">
-      <option name="closed" value="true" />
-      <created>1750982543050</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1750982543050</updated>
-    </task>
-    <task id="LOCAL-00028" summary=".">
-      <option name="closed" value="true" />
-      <created>1750982548468</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1750982548468</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,9 +307,6 @@
     <MESSAGE value="CAmbio grande en arquitectura" />
     <MESSAGE value="productos" />
     <MESSAGE value="backup" />
-    <MESSAGE value="testeando" />
-    <MESSAGE value="-" />
-    <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="backup" />
   </component>
 </project>

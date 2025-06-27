@@ -1,13 +1,13 @@
-package com.perfulandia.inventario_service;
+package com.perfulandia.inventario;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InventarioApplication {
+public class  InventarioServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InventarioApplication.class, args);
+		SpringApplication.run(InventarioServiceApplication.class, args);
 	}
 
 }

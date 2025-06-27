@@ -21,11 +21,11 @@ public class UsuariosController {
 
     @GetMapping
     public ResponseEntity<List<UsuariosModel>> Listar() {
-        List<UsuariosModel> usuariosModels = usuariosService.findAll();
+        List<UsuariosModel> usuariosModel = usuariosService.obtenerTodos();
         if (usuariosModels.isEmpty()){
             return ResponseEntity.noContent().build();
         }
-        return ResponseEntity.ok(usuariosModels);
+        return ResponseEntity.ok(usuariosModel);
     }
 
     @PostMapping

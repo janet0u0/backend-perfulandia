@@ -12,7 +12,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for logistica_service" enabled="true">
+      <profile name="Annotation profile for usuarios-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -20,9 +20,9 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="usuarios-service" />
-        <module name="inventario-service" />
+        <module name="productos_service" />
       </profile>
-      <profile name="Annotation profile for productos_service" enabled="true">
+      <profile name="Annotation profile for logistica-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -30,29 +30,31 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
-        <module name="logistica-service" />
+        <module name="logistica_service" />
       </profile>
-      <profile name="Annotation profile for productos-services" enabled="true">
+      <profile name="Annotation profile for inventario-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="productos-services" />
+        <module name="inventario_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pedidos-service" target="21" />
+      <module name="productos-services" target="21" />
       <module name="usuarios_service" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="inventario-service" options="-parameters" />
-      <module name="logistica-service" options="-parameters" />
+      <module name="inventario_service" options="-parameters" />
+      <module name="logistica_service" options="-parameters" />
       <module name="pedidos-service" options="-parameters" />
       <module name="productos-services" options="-parameters" />
+      <module name="productos_service" options="-parameters" />
       <module name="usuarios-service" options="-parameters" />
       <module name="usuarios_service" options="-parameters" />
     </option>
