@@ -16,7 +16,6 @@ import java.util.Random;
 @Component
 public class DataLoader implements CommandLineRunner {
 
-public class DataLoader {
     @Autowired
     private ProductoRepository productoRepository;
 
@@ -42,4 +41,4 @@ public class DataLoader {
         productos.forEach(System.out::println);
     }
 }
-}
+
