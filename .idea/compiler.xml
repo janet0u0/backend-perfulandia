@@ -12,16 +12,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for logistica-service" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
-        </processorPath>
-        <module name="logistica_service" />
-      </profile>
       <profile name="Annotation profile for inventario-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -31,7 +21,7 @@
         </processorPath>
         <module name="inventario_service" />
       </profile>
-      <profile name="Annotation profile for productos_service" enabled="true">
+      <profile name="Annotation profile for usuarios-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -40,9 +30,11 @@
         </processorPath>
         <module name="usuarios-service" />
         <module name="productos_service" />
+        <module name="logistica_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="inventario" target="21" />
       <module name="pedidos-service" target="21" />
       <module name="productos-services" target="21" />
       <module name="usuarios_service" target="21" />
