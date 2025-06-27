@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bae23071-219f-43a7-bd7c-d6d0535cc365" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/ScreenshotHATEOAS/GetInventario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/ScreenshotHATEOAS/Inventario individual con HATEOAS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/ScreenshotHATEOAS/Listado completo con HATEOAS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/ScreenshotHATEOAS/ListadoCompletoHATEOAsPostman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario-service/InventarioApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario-service/controller/InventarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario-service/model/Inventario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario-service/repository/InventarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario-service/service/InventarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario/InventarioServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario/assemblers/InventarioModelAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario/controller/InventarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario/model/Inventario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario/repository/InventarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/java/com/perfulandia/inventario/service/InventarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/test/java/com/perfulandia/inventario/InventarioServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/test/java/com/perfulandia/inventario/service/InventarioServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/src/test/java/com/perfulandia/inventario_service/InventarioApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/classes/com/perfulandia/inventario/InventarioServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/classes/com/perfulandia/inventario/assemblers/InventarioModelAssembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/classes/com/perfulandia/inventario/controller/InventarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/classes/com/perfulandia/inventario/model/Inventario$InventarioBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/classes/com/perfulandia/inventario/model/Inventario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/classes/com/perfulandia/inventario/repository/InventarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/classes/com/perfulandia/inventario/service/InventarioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/classes/com/perfulandia/inventario_service/InventarioApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/test-classes/com/perfulandia/inventario/InventarioServiceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/test-classes/com/perfulandia/inventario/service/InventarioServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario/inventario_service/target/test-classes/com/perfulandia/inventario_service/InventarioApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DIEGOhidalg"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/janet0u0/backend-perfulandia.git",
+    "accountId": "6c3026fa-1084-44df-a47b-ad5c5f122a00"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2z4mO3S68tGnGFlomWmJhbUtjmv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/diego/OneDrive/Desktop/Perfulandia/backend-perfulandia/usuarios"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bae23071-219f-43a7-bd7c-d6d0535cc365" name="Changes" comment="" />
+      <created>1750998683555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750998683555</updated>
+    </task>
+    <servers />
+  </component>
+</project>
