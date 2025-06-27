@@ -1,0 +1,35 @@
+-- Seleccionar base de datos
+USE users_perfulandia;
+
+-- Insertar datos de prueba
+INSERT INTO usuario (runCliente, dvRunCliente, nombreCompleto, telefono, correo) VALUES
+(12345678, '9', 'Lucía Rojas', 912345678, 'lucia.rojas@example.com'),
+(8765432, '7', 'Pedro González', 998877665, 'pedro.gonzalez@example.com'),
+(23456789, 'k', 'Camila Herrera', 987654321, 'camila.herrera@example.com'),
+(7654321, '0', 'Matías Torres', 911223344, 'matias.torres@example.com'),
+(19283746, '5', 'Valentina Silva', 935467812, 'valentina.silva@example.com'),
+(8372619, '3', 'Ignacio Morales', 934567123, 'ignacio.morales@example.com'),
+(34918273, '1', 'Fernanda Díaz', 912839475, 'fernanda.diaz@example.com'),
+(7213490, '6', 'Tomás Castillo', 945612378, 'tomas.castillo@example.com'),
+(56789312, 'k', 'Daniela Pizarro', 987654999, 'daniela.pizarro@example.com'),
+(18273645, '8', 'Sebastián Reyes', 915623489, 'sebastian.reyes@example.com'),
+(7264912, '4', 'Antonia Vega', 948372615, 'antonia.vega@example.com'),
+(45821973, '2', 'Gabriel Soto', 923145786, 'gabriel.soto@example.com'),
+(3728194, '0', 'Isidora Fuentes', 936582147, 'isidora.fuentes@example.com'),
+(91283746, '6', 'Francisco Palma', 983142785, 'francisco.palma@example.com'),
+(8492018, '1', 'Josefa Riquelme', 975213469, 'josefa.riquelme@example.com'),
+(23901847, '9', 'Benjamín Vera', 946271835, 'benjamin.vera@example.com'),
+(7081923, '3', 'Renata Tapia', 951283746, 'renata.tapia@example.com'),
+(34192087, '8', 'Cristóbal Sáez', 964215387, 'cristobal.saez@example.com'),
+(8492016, 'k', 'Javiera Navarro', 956318274, 'javiera.navarro@example.com'),
+(21938476, '5', 'Martín Uribe', 968347512, 'martin.uribe@example.com'),
+(7182341, '7', 'Emilia Alarcón', 974215689, 'emilia.alarcon@example.com'),
+(38492017, '2', 'Diego Henríquez', 932174856, 'diego.henriquez@example.com'),
+(12093847, '0', 'Amanda Carrasco', 921837465, 'amanda.carrasco@example.com'),
+(9182734, '3', 'Vicente Leiva', 986321478, 'vicente.leiva@example.com'),
+(23847192, '1', 'Sofía Peña', 954213687, 'sofia.pena@example.com'),
+(7182735, '6', 'Agustín Araya', 976342158, 'agustin.araya@example.com'),
+(39182047, '4', 'Trinidad Figueroa', 962374518, 'trinidad.figueroa@example.com'),
+(8472619, '9', 'Maximiliano Lagos', 911645378, 'max.lagos@example.com'),
+(74912038, 'k', 'Florencia Espinoza', 998731654, 'florencia.espinoza@example.com'),
+(6123478, '2', 'Leonardo Campos', 919384752, 'leonardo.campos@example.com');
