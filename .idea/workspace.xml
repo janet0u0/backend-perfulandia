@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/productos/productos_services/src/main/java/com/perfulandia/productos_service/assemblers/productoModelAsembler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos_services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos_services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos_services/src/main/java/com/perfulandia/productos_service/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos_services/src/main/java/com/perfulandia/productos_service/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos_services/src/test/java/com/perfulandia/productos_service/service/ServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/productos_services/target/classes/com/perfulandia/productos_service/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/productos/productos_services/target/classes/com/perfulandia/productos_service/controller/ProductoController.class" afterDir="false" />
-    </list>
+    <list default="true" id="7c6e8d0e-b839-46f4-8896-e76e723009a5" name="Changes" comment="hateoas-productos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -373,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750982548468</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="hateoas-productos">
+      <option name="closed" value="true" />
+      <created>1750987344910</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1750987344910</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,6 +395,7 @@
     <MESSAGE value="testeando" />
     <MESSAGE value="-" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="hateoas-productos" />
+    <option name="LAST_COMMIT_MESSAGE" value="hateoas-productos" />
   </component>
 </project>
