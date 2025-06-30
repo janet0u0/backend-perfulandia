@@ -1,9 +1,0 @@
-com\perfulandia\logistica_service\controller\DespachoController.class
-com\perfulandia\logistica_service\repository\DespachoRepository.class
-com\perfulandia\logistica_service\model\Despacho.class
-com\perfulandia\logistica_service\service\TransportistaService.class
-com\perfulandia\logistica_service\service\DespachoService.class
-com\perfulandia\logistica_service\model\Transportista.class
-com\perfulandia\logistica_service\LogisticaServiceApplication.class
-com\perfulandia\logistica_service\repository\TransportistaRepository.class
-com\perfulandia\logistica_service\controller\TransportistaController.class

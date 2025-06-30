@@ -29,6 +29,10 @@ public class TransportistaService {
         return repository.save(transportista);
     }
 
+    public List<Transportista> guardarTodos(List<Transportista> transportistas) {
+        return repository.saveAll(transportistas);
+    }
+
     public void eliminar(Long id) {
         repository.deleteById(id);
     }
